@@ -7,12 +7,14 @@ int _tmain(int argc, _TCHAR* argv[])
 	cin >> n;
 	int *a =new int[n];
 	for (int i = 0; i < n; i++)
-	a[i]=rand()%100;
+		a[i]=rand()%100;
+//	cin >> a[i];
 	for (int i = 0; i < n; i++)
 	if (a[i]<a[i+1])
 	{
 		main = false;
-		cout < "Massiv ne vozrastaet";
+		cout << "Massiv ne vozrastaet";
+		getch();
 		return 1;
 	}
 	cout << "Massiv vozrast";
