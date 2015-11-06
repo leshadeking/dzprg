@@ -1,0 +1,30 @@
+﻿Построение начато 06.11.2015 21:02:48.
+Проект "D:\Проэкты0.1.0\dzprg.git\7.4\7.4\7.4.vcxproj" в узле 2 (целевые объекты build).
+InitializeBuildStatus:
+  Создание "Debug\7.4.unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  Для всех выходных данных обновления не требуется.
+  d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\7.4.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 7.4.cpp
+  7.4.cpp
+d:\проэкты0.1.0\dzprg.git\7.4\7.4\7.4.cpp(25): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+          d:\program files\microsoft visual studio 10.0\vc\include\conio.h(128): см. объявление "getch"
+ManifestResourceCompile:
+  Для всех выходных данных обновления не требуется.
+Link:
+  d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Проэкты0.1.0\dzprg.git\7.4\Debug\7.4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\7.4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Проэкты0.1.0\dzprg.git\7.4\Debug\7.4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Проэкты0.1.0\dzprg.git\7.4\Debug\7.4.lib" /MACHINE:X86 Debug\7.4.exe.embed.manifest.res
+  Debug\7.4.obj
+  Debug\stdafx.obj
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\7.4.exe.embed.manifest" /manifest Debug\7.4.exe.intermediate.manifest
+  Для всех выходных данных обновления не требуется.
+LinkEmbedManifest:
+  Для всех выходных данных обновления не требуется.
+  7.4.vcxproj -> D:\Проэкты0.1.0\dzprg.git\7.4\Debug\7.4.exe
+FinalizeBuildStatus:
+  Файл "Debug\7.4.unsuccessfulbuild" удаляется.
+  Обращение к "Debug\7.4.lastbuildstate".
+Построение проекта "D:\Проэкты0.1.0\dzprg.git\7.4\7.4\7.4.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.39
